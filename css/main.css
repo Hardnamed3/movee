@@ -1,0 +1,23 @@
+* {
+  margin:0;
+  padding:0;
+}
+h1  {
+  color: black;
+}
+body {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  height:800px;
+  width:1050px;
+  margin:auto;
+}
+.head {
+  border:2px solid green;
+  height: 150px;
+  width: 1050px;
+  background-color: dimgray;
+}
