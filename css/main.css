@@ -15,6 +15,37 @@ h2 {
   padding:10px;
   color: white;
 }
+
+/*navbar start*/
+.navbar {
+	float:left;
+	width: 1050px;
+}
+
+.navbar__ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #121a3a;
+}
+.navbar__li {
+    float: left;
+}
+
+.navbar__li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar__li a:hover {
+    background-color: #0c1228;
+}
+/*navbar end*/
+
 #reccomended {
   padding-top:50px;
   padding-left: 20px;
@@ -56,12 +87,17 @@ body {
   border: 3px solid gray;
   background-color: dimgray;
 }
+.Website__name {
+	float:left;
+	width: 500px;
+	margin-left: 20px;
+}
 .logo img{
   width: 150px;
   height: 150px;
 }
 .logo {
-  width: 160px;
+  width: 150px;
   float: left;
 }
 .movie_poster {
