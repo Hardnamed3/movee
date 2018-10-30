@@ -39,7 +39,7 @@ body {
   background-image: url(../images/headerbg.jpg);
 }
 .content {
-  height: 800px;
+  height: 870px;
   width: 1050px;
   float: left;
   background-color: dimgray;
@@ -51,8 +51,8 @@ body {
 #footer {
   float: left;
   margin: auto;
-  height: 40px;
-  width: 1050px;
+  height: 20px;
+  width: 1044px;
   border: 3px solid gray;
   background-color: dimgray;
 }
@@ -90,4 +90,20 @@ body {
     width: 160px;
     height: 320px;
     margin-left: 72px;
+  }
+  #year {
+    color:gainsboro;
+    margin:0;
+    padding:0;
+    width: 200px;
+    float:left;
+    margin-left: 5px;
+  }
+  #name {
+    margin:0;
+    padding: 0;
+    color:gainsboro;
+    float:right;
+    margin-right: 5px;
+    margin-top: 2px;
   }
