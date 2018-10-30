@@ -1,15 +1,28 @@
 * {
   margin:0;
   padding:0;
-  font-family: impact;
+  font-family: monospace;
 }
 h1  {
-  color: #dabdab;
+  color: orange;
+  font-size: 45px;
+  padding-top: 40px;
+}
+h2 {
+  padding:10px;
+  color: white;
+}
+#reccomended {
+  padding-top:50px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+
 }
 body {
   background-image: url(../images/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 1100px;
 }
 .container {
   height:800px;
@@ -20,7 +33,41 @@ body {
   height: 150px;
   width: 1050px;
   background-color: dimgray;
+  background-image: url(../images/headerbg.jpg);
 }
 .content {
-
+  height: 800px;
+  width: 1050px;
+  float: left;
+  background-color: dimgray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-image: url(../images/bgn.jpg);
+  background-size: contain;
+}
+#footer {
+  float: left;
+  margin: auto;
+  height: 110px;
+  width: 1050px;
+  border: 3px solid gray;
+  background-color: dimgray;
+}
+.logo img{
+  width: 150px;
+  height: 150px;
+}
+.logo {
+  width: 160px;
+  float: left;
+}
+.movie_poster {
+  width:170px;
+  height:250px;
+}
+.movies  {
+  display: flex;
+}
+.movies img {
+  padding: 5px;
 }
