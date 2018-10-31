@@ -307,3 +307,13 @@ body {
     to   { opacity: 1;}
 }
 /*ANIMATION END*/
+
+/* Máté's page start*/
+.mate__container {
+  height:800px;
+  width:1045px;
+  margin:auto;
+}
+/* Máté's page end */
+
+
