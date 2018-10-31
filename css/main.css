@@ -85,7 +85,7 @@ body {
   border-radius: 10px 10px 10px 10px;
 }
 .content {
-  height: 200%;
+  height: 260%;
   width: 1045px;
   float: left;
   background-color: dimgray;
@@ -361,17 +361,29 @@ body {
 	height: 50px;
 	width: 1045px;
 	margin-top: 15px;
-	margin-left: 200px; 
+	margin-left: 200px;
+
+	opacity: 0;
+	animation: fadein ease 1.5s forwards;
+	animation-delay: 1.1s;	
 }
 .mate__box {
 	color:white;
 	float:left;
 	height: 620px;
 	width: 500px;
+	
+	opacity: 0;
+	animation: fadein ease 1.5s forwards;
+	animation-delay: 1.2s;
 }
 .mate__half {
 	height:300px;
 	margin-left: 40px;
+	
+	opacity: 0;
+	animation: fadein ease 1.5s forwards;
+	animation-delay: 1.3s;
 }
 .mate__name, .mate__description {
 	margin-bottom: 20px;
