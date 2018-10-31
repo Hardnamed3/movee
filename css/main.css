@@ -309,6 +309,25 @@ body {
 /*ANIMATION END*/
 
 /* Máté's page start*/
+.mate_title {
+	width:1045px;
+	margin-left:400px;
+	color: #dabdab;
+}
+.mate__box {
+	clear:left;
+	height: 200px;
+	width:1045px;
+}
+.mate__description {
+	margin-bottom: 15px;
+	color: white;
+}
+.mate__poster {
+	float:left;
+	margin-left:100px;
+	width: 200px;
+}
 .mate__container {
   height:800px;
   width:1045px;
