@@ -317,7 +317,6 @@ body {
   margin-bottom: 5px;
   background-image: url(../images/bgn.jpg);
   background-size: contain;
-
   animation: fadein 2s;
 }
 .mate-container {
@@ -326,7 +325,6 @@ body {
   margin:auto;
   background-image: url(../images/bgn.jpg);
   background-size: contain;
-
   animation: fadein 2s;
 }
 /* Máté's page end */
