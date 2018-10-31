@@ -46,7 +46,8 @@ h2 {
 }
 /*navbar end*/
 
-#reccomended {
+/*Homepage*/
+.reccomended {
   padding-top:50px;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -57,6 +58,7 @@ body {
   background-size:auto;
   background-repeat: no-repeat;
   height: 1000px;
+  background-attachment: fixed;
 }
 .container {
   height:800px;
@@ -66,8 +68,8 @@ body {
 .head {
   height: 150px;
   width: 1050px;
-  background-color: dimgray;
   background-image: url(../images/headerbg.jpg);
+  background-size: auto;
 }
 .content {
   height: 870px;
@@ -78,14 +80,6 @@ body {
   margin-bottom: 5px;
   background-image: url(../images/bgn.jpg);
   background-size: contain;
-}
-#footer {
-  float: left;
-  margin: auto;
-  height: 20px;
-  width: 1044px;
-  border: 3px solid gray;
-  background-color: dimgray;
 }
 .Website__name {
 	float:left;
@@ -127,19 +121,32 @@ body {
     height: 320px;
     margin-left: 72px;
   }
-  #year {
-    color:gainsboro;
-    margin:0;
-    padding:0;
-    width: 200px;
-    float:left;
-    margin-left: 5px;
-  }
-  #name {
-    margin:0;
-    padding: 0;
-    color:gainsboro;
-    float:right;
-    margin-right: 5px;
-    margin-top: 2px;
-  }
+
+/*Homepage end*/
+
+/*Footer*/
+#year {
+  color:gainsboro;
+  margin:0;
+  padding:0;
+  width: 200px;
+  float:left;
+  margin-left: 5px;
+}
+#name {
+  margin:0;
+  padding: 0;
+  color:gainsboro;
+  float:right;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+#footer {
+  float: left;
+  margin: auto;
+  height: 20px;
+  width: 1044px;
+  border: 3px solid gray;
+  background-color: dimgray;
+}
+/*Footer end*/
