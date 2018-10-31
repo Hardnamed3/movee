@@ -23,7 +23,7 @@ h2 {
 /*navbar start*/
 .navbar {
 	float:left;
-	width: 1050px;
+	width: 1045px;
 }
 
 .navbar__ul {
@@ -71,18 +71,18 @@ body {
 }
 .container {
   height:800px;
-  width:1050px;
+  width:1045px;
   margin:auto;
 }
 .head {
   height: 150px;
-  width: 1050px;
+  width: 1045px;
   background-image: url(../images/headerbg.jpg);
   background-size: auto;
 }
 .content {
   height: 870px;
-  width: 1050px;
+  width: 1045px;
   float: left;
   background-color: dimgray;
   margin-top: 5px;
@@ -114,7 +114,7 @@ body {
   padding: 5px;
 }
 .BIGBOX {
-  width: 1050px;
+  width: 1045px;
   margin:auto;
   float:left;
   height: 775px;
@@ -191,7 +191,7 @@ body {
   float: left;
   margin: auto;
   height: 20px;
-  width: 1044px;
+  width: 1039px;
   border: 3px solid gray;
   background-color: dimgray;
 }
@@ -212,7 +212,7 @@ body {
 
 #gytis-container {
   height:918px;
-  width:1050px;
+  width:1045px;
   margin:auto;
   background-image: url(../images/bgn.jpg);
   background-size: contain;
@@ -282,11 +282,10 @@ body {
   animation: fadein 2s;
 }
 #gytis-content {
-  height: 902px;
-  width: 1050px;
+  height: 907px;
+  width: 1045px;
   float: left;
   background-color: dimgray;
-  margin-top: 5px;
   margin-bottom: 5px;
   background-image: url(../images/bgn.jpg);
   background-size: contain;
