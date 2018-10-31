@@ -309,10 +309,23 @@ body {
 /*ANIMATION END*/
 
 /* Máté's page start*/
-.mate__container {
-  height:800px;
+.mate-content {
+  height: 907px;
+  width: 1045px;
+  float: left;
+  background-color: dimgray;
+  margin-bottom: 5px;
+  background-image: url(../images/bgn.jpg);
+  background-size: contain;
+  animation: fadein 2s;
+}
+.mate-container {
+  height:918px;
   width:1045px;
   margin:auto;
+  background-image: url(../images/bgn.jpg);
+  background-size: contain;
+  animation: fadein 2s;
 }
 /* Máté's page end */
 /*Gyuri*/
