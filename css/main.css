@@ -66,9 +66,10 @@ h2 {
 }
 body {
   background-image: url(../images/bg.jpg);
-  background-size:auto;
+  background-size:100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
 
   animation: fadein 2s;
 }
@@ -380,7 +381,7 @@ video
 	height:300px;
 	width:500px;
 	background-color:white;
-	filter:alpha(opacity=40); 
+	filter:alpha(opacity=40);
 	opacity:0.5;
 	margin:0 auto;
 }
@@ -538,7 +539,7 @@ video
 {
 	height:400px;
 	width:600px;
-	background-color:white;	
+	background-color:white;
 	margin-top:10px;
 	padding:5px;
 }
