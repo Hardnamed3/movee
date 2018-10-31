@@ -28,10 +28,13 @@ h2 {
 
 .navbar__ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 0;
     overflow: hidden;
     background-color: #121a3a;
+    background-image: linear-gradient(#121a3a,#070a25);
+    border-radius: 10px 10px 10px 10px;
 }
 .navbar__li {
     float: left;
@@ -79,6 +82,7 @@ body {
   width: 1045px;
   background-image: url(../images/headerbg.jpg);
   background-size: auto;
+  border-radius: 10px 10px 10px 10px;
 }
 .content {
   height: 870px;
@@ -190,10 +194,10 @@ body {
 #footer {
   float: left;
   margin: auto;
-  height: 20px;
-  width: 1039px;
-  border: 3px solid gray;
-  background-color: dimgray;
+  height: 26px;
+  width: 1045px;
+  background-color: #121a3a;
+  background-image: linear-gradient(#121a3a,#070a25);
 }
 /*Footer end*/
 
