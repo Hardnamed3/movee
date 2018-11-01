@@ -85,12 +85,10 @@ body {
   border-radius: 10px 10px 10px 10px;
 }
 .content {
-  height: 260%;
+  height: 2115px;
   width: 1045px;
   float: left;
   background-color: dimgray;
-  margin-top: 5px;
-  margin-bottom: 5px;
   background-image: url(../images/bgn.jpg);
   background-size: contain;
 }
@@ -119,9 +117,10 @@ body {
 }
 .BIGBOX {
   width: 1045px;
-  margin:auto;
   float:left;
-  height: 775px;
+  margin:auto;
+  height: 2100px;
+  margin-bottom:10px;
   }
 .section1  {
   display:inline-block;
@@ -193,7 +192,15 @@ body {
 }
 #footer {
   float: left;
-  margin: auto;
+  height: 26px;
+  width: 1045px;
+  background-color: #121a3a;
+  background-image: linear-gradient(#121a3a,#070a25);
+}
+#footer_main
+{
+  margin-top:25px;
+  float: left;
   height: 26px;
   width: 1045px;
   background-color: #121a3a;
@@ -414,29 +421,7 @@ body {
 }
 /* Máté's page end */
 
-/*Gyuri*/
-#gyuri_text
-{
-	margin-top:150px;
-	float:right;
-	height:800px;
-	width:300px;
-	color:white;
-	margin: auto;
-}
-#gyuri_image
-{
-	padding:50px;
-}
-#pics
-{
-	float:left;
-	width:700px;
-	height:400px;
-	margin:0 auto;
-}
 
-/*Gyuri page end*/
 
 /*Robert*/
 
@@ -602,6 +587,26 @@ video
 	height:150px;
 	height:200px;
 	padding:25px;
+}
+#gyuri_text
+{
+	margin-top:150px;
+	float:right;
+	height:800px;
+	width:300px;
+	color:white;
+	margin: auto;
+}
+#gyuri_image
+{
+	padding:50px;
+}
+#pics
+{
+	float:left;
+	width:700px;
+	height:400px;
+	margin:0 auto;
 }
 /*Gyuri page end*/
 
