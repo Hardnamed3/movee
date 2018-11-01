@@ -1,4 +1,4 @@
-* {
+﻿* {
   margin:0;
   padding:0;
   font-family: monospace;
@@ -415,15 +415,6 @@ body {
 /* Máté's page end */
 
 /*Gyuri*/
-video
-{
-	height:300px;
-	width:500px;
-	background-color:white;
-	filter:alpha(opacity=40); 
-	opacity:0.5;
-	margin:0 auto;
-}
 #gyuri_text
 {
 	margin-top:150px;
@@ -444,12 +435,6 @@ video
 	height:400px;
 	margin:0 auto;
 }
-#gyuri_footer
-{
-	position:absolute;
-	bottom:0px;
-}
-
 
 /*Gyuri page end*/
 
