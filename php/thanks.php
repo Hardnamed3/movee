@@ -21,13 +21,13 @@
 				</div>
 				<div class="navbar">
 					<ul class="navbar__ul">
-					  <li class="navbar__li"><a href="gytis.html">Gytis</a></li>
-					  <li class="navbar__li"><a href="robert.html">Robert</a></li>
-					  <li class="navbar__li"><a href="scott.html">Scott</a></li>
-					  <li class="navbar__li"><a href="mate.html">Mate</a></li>
-					  <li class="navbar__li"><a href="shaquille.html">Shaquille</a></li>
-					  <li class="navbar__li"><a href="gyuri.html">Gyuri</a></li>
-					  <li class="navbar__li"><a href="form.html">Give Feedback</a></li>
+					  <li class="navbar__li"><a href="../html/gytis.html">Gytis</a></li>
+					  <li class="navbar__li"><a href="../html/robert.html">Robert</a></li>
+					  <li class="navbar__li"><a href="../html/scott.html">Scott</a></li>
+					  <li class="navbar__li"><a href="../html/mate.html">Mate</a></li>
+					  <li class="navbar__li"><a href="../html/shaquille.html">Shaquille</a></li>
+					  <li class="navbar__li"><a href="../html/gyuri.html">Gyuri</a></li>
+					  <li class="navbar__li"><a href="../html/form.html">Give Feedback</a></li>
 					</ul>
 				</div>
 				<?php 
@@ -36,9 +36,10 @@
 							$name = $_POST['nickname'];
 							$change = $_POST['change'];
 							$email = $_POST['email'];
-				
-						echo "<div class='form__title'><h1>Thank you " . ucfirst($interest) . "for your feedback:</h1></div>";
-					}	
+						echo "<div class='form__title'><h1>Thank you " . ($name) . " for your feedback:</h1></div>";
+                                        } else 	{
+                                            echo "<div class='form__title'><h1>Sorry, but you need to fill out the form</h1></div>";
+                                        }
 				?>
 			</div>
 			<div id="footer">
