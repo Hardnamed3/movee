@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Feedback page</title>
+    <title>Thanks page</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <meta charset="utf-8">
     <link rel="icon" href="../images/dancing-cow.gif">
@@ -9,6 +9,7 @@
     <body>
 		<div class="mate-container">
 			<div class="mate-content">
+				
 				<div class="head">
 						<div class="logo">
 							<a href="index.html"><img src="../images/logo.png" alt="logo image" /></a>
@@ -29,27 +30,16 @@
 					  <li class="navbar__li"><a href="form.html">Give Feedback</a></li>
 					</ul>
 				</div>
-				<div class="form__title">
-					<h1>Send us your feedback:</h1>
-				</div>
-				<div class="form__explanation">
-					<h2>We are constantly aiming to improve our site, and for that we need your feedback. We want to know what you'd like to see, so that we can make our website even better.</h2>
-				</div>
-				<div class="form__box">
-					<form class="main-form" action="../php/thanks.php" method="POST">
-						<input class="input_text" required type="text" placeholder="Your E-Mail address" name="email" />
-						<input class="input_text" required type="text" placeholder="Nickname" name="nickname" />
-						<select class="input_select" required name="change">
-							<option selected disabled value>What would you like us to add?</option>
-							<option value="recommend">Movie recommendations</option>
-							<option value="review">Movie reviews</option>
-							<option value="both">Both</option>
-							<option value="nothing">Nothing</option>
-						</select>
-						<textarea class="input_textarea" placeholder="Send us a message!" name="message"></textarea>
-						<input class="main__button" type="submit" name="submit" value="Send Feedback">
-					</form>
-				</div>
+				<?php 
+					if (isset($_POST['submit']))
+					{
+							$name = $_POST['nickname'];
+							$change = $_POST['change'];
+							$email = $_POST['email'];
+				
+						echo "<div class='form__title'><h1>Thank you " . ucfirst($interest) . "for your feedback:</h1></div>";
+					}	
+				?>
 			</div>
 			<div id="footer">
 				<p id="year">2017-2018</p>
