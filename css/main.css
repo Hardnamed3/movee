@@ -373,18 +373,22 @@ body {
 	float:left;
 	height: 620px;
 	width: 500px;
-	
-	opacity: 0;
-	animation: fadein ease 1.5s forwards;
-	animation-delay: 1.2s;
 }
-.mate__half {
+.mate__half-left, .mate__half-right {
 	height:300px;
 	margin-left: 40px;
-	
+}
+.mate__half-right {
+	float:right;
+	text-align:right;
 	opacity: 0;
 	animation: fadein ease 1.5s forwards;
 	animation-delay: 1.3s;
+}
+.mate__half-left {
+	opacity: 0;
+	animation: fadein ease 1.5s forwards;
+	animation-delay: 1.4s;
 }
 .mate__name, .mate__description {
 	margin-bottom: 20px;
