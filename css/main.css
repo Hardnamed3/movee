@@ -448,6 +448,22 @@ video
 	animation-delay: 1.3s;
 }
 
+#shaq-ul {
+  float: left;
+  color: white;
+  margin-top: 60px;
+  margin-left: -160px;
+
+  opacity: 0;
+  animation: fadein-right ease 1.5s forwards;
+  animation-delay: 1.3s;
+}
+#shaq-li {
+  float: none;
+
+  animation: fadein 2s;
+}
+
 /* Shaq page end */
 
 
