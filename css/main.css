@@ -280,7 +280,7 @@ body {
   animation: fadein-right ease 1.5s forwards;
   animation-delay: 1.3s;
 }
-#gytis-li {
+.gytis-li {
   float: none;
 
   animation: fadein 2s;
@@ -516,7 +516,7 @@ video
   animation: fadein-right ease 1.5s forwards;
   animation-delay: 1.3s;
 }
-#r_li {
+.r_li {
   float: none;
 
   animation: fadein 2s;
@@ -618,11 +618,13 @@ video
 
 /* Form start */
 .form__title {
+	clear:left;
+	margin-left: 25%;
 	color: #dabdab;
 	width: 1045px;
 }
 .form__box {
-    float: left;
+	margin-left: 25%;
     width: 1045px;
 }
 .form__explanation {
@@ -710,7 +712,7 @@ video
 	float: left;
 }
 
-#shaq-head
+.shaq-head
 {
 	color:white;
 	float: left;
@@ -749,7 +751,7 @@ video
   animation: fadein-right ease 1.5s forwards;
   animation-delay: 1.3s;
 }
-#shaq-li {
+.shaq-li {
   float: none;
 
   animation: fadein 2s;
